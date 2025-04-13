@@ -9,6 +9,23 @@
   display: flex;
   visibility: hidden;
 }
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  #card {
+    margin: 2em auto; /* Ajustar el margen */
+    top: 50px;
+  }
+
+  .side.side.one {
+    display: none;
+  }
+  .valentines-day {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 
 #card h2 {
   font-size: 3em;
