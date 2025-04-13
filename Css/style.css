@@ -12,6 +12,7 @@
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
   #card {
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
     margin: 2em auto; /* Ajustar el margen */
     top: 50px;
   }
